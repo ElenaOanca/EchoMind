@@ -1,0 +1,2 @@
+# EchoMind
+AppCrescitaPersonale
