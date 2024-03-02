@@ -1,0 +1,59 @@
+
+/* Stilizzazione base della navbar */
+.navbar {
+  background-color: #343a40; /* Sfondo scuro */
+  border-bottom: 1px solid #474f55; /* Bordi sottili per una separazione definita */
+}
+
+.navbar-brand {
+  color: #fff; /* Colore del testo per il brand */
+  transition: color 0.2s ease-in-out; /* Transizione fluida per gli effetti hover */
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #f8f9fa; /* Colore del testo al hover o focus */
+  text-decoration: none; /* Rimuove il sottolineamento al hover o focus */
+}
+
+.navbar-toggler {
+  border-color: #474f55; /* Colore del bordo del bottone toggler */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Icona personalizzata per il toggler */
+}
+
+.nav-link {
+  color: #ddd; /* Colore dei link */
+  transition: color 0.2s ease-in-out; /* Transizione fluida per gli effetti hover */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ffffff; /* Colore del testo al hover o focus */
+  text-decoration: none; /* Rimuove il sottolineamento al hover o focus */
+}
+
+/* Stilizzazione degli elementi attivi della navbar */
+.nav-item.active .nav-link,
+.nav-item.active .nav-link:hover,
+.nav-item.active .nav-link:focus {
+  color: #ffffff; /* Colore del testo per gli elementi attivi */
+  background-color: #495057; /* Sfondo per gli elementi attivi */
+}
+
+/* Responsive design: adattamenti per dispositivi mobili */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Sfondo della navbar collassata su dispositivi mobili */
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem; /* Padding maggiore per una migliore leggibilità su dispositivi mobili */
+  }
+
+
+
+
+}
